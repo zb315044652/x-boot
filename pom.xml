@@ -107,12 +107,6 @@
             <artifactId>jasypt-spring-boot-starter</artifactId>
             <version>2.1.0</version>
         </dependency>
-        <!-- Beetl 代码生成使用-->
-        <dependency>
-            <groupId>com.ibeetl</groupId>
-            <artifactId>beetl</artifactId>
-            <version>2.9.9</version>
-        </dependency>
         <!-- 热更新 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
