@@ -50,10 +50,6 @@ spring:
     port: 6379
     # 超时时间 Duration类型 3秒
     timeout: 3S
-  # Elasticsearch
-  data:
-    elasticsearch:
-      cluster-nodes: 127.0.0.1:9300
   # 定时任务
   quartz:
     # 任务信息存储至数据库
