@@ -1,11 +1,11 @@
 package cn.exrick.xboot.common.utils;
 
 import cn.exrick.xboot.common.constant.CommonConstant;
-import cn.exrick.xboot.modules.base.entity.Permission;
-import cn.exrick.xboot.modules.base.entity.Role;
-import cn.exrick.xboot.modules.base.entity.User;
-import cn.exrick.xboot.modules.base.service.UserService;
-import cn.exrick.xboot.modules.base.service.IUserRoleService;
+import cn.exrick.xboot.modules.entity.Permission;
+import cn.exrick.xboot.modules.entity.Role;
+import cn.exrick.xboot.modules.entity.User;
+import cn.exrick.xboot.modules.service.UserService;
+import cn.exrick.xboot.modules.service.IUserRoleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

@@ -26,6 +26,7 @@ spring:
         # 允许清空统计数据
         reset-enable: true
         login-username: root
+        # Jasypt加密 解密结果为123456
         login-password: ENC(F4B0s6u9xcDw3V+P0qC4CA==)
         # IP白名单 多个逗号分隔
         allow:
