@@ -1,4 +1,4 @@
-package cn.exrick.xboot.modules.base.serviceimpl;
+package cn.exrick.xboot.modules.base.service.impl;
 
 import cn.exrick.xboot.common.utils.SecurityUtil;
 import cn.exrick.xboot.modules.base.dao.DepartmentDao;

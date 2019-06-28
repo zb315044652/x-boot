@@ -1,4 +1,4 @@
-package cn.exrick.xboot.modules.base.service.mybatis;
+package cn.exrick.xboot.modules.base.service;
 
 import cn.exrick.xboot.modules.base.entity.Role;
 import cn.exrick.xboot.modules.base.entity.UserRole;

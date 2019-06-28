@@ -1,4 +1,4 @@
-package cn.exrick.xboot.modules.base.serviceimpl;
+package cn.exrick.xboot.modules.base.service.impl;
 
 import cn.exrick.xboot.modules.base.dao.DictDao;
 import cn.exrick.xboot.modules.base.entity.Dict;

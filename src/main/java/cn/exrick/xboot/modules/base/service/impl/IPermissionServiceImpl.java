@@ -1,8 +1,8 @@
-package cn.exrick.xboot.modules.base.serviceimpl.mybatis;
+package cn.exrick.xboot.modules.base.service.impl;
 
 import cn.exrick.xboot.modules.base.dao.mapper.PermissionMapper;
 import cn.exrick.xboot.modules.base.entity.Permission;
-import cn.exrick.xboot.modules.base.service.mybatis.IPermissionService;
+import cn.exrick.xboot.modules.base.service.IPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

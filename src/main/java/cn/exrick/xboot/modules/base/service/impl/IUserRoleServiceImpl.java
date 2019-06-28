@@ -1,9 +1,9 @@
-package cn.exrick.xboot.modules.base.serviceimpl.mybatis;
+package cn.exrick.xboot.modules.base.service.impl;
 
 import cn.exrick.xboot.modules.base.dao.mapper.UserRoleMapper;
 import cn.exrick.xboot.modules.base.entity.Role;
 import cn.exrick.xboot.modules.base.entity.UserRole;
-import cn.exrick.xboot.modules.base.service.mybatis.IUserRoleService;
+import cn.exrick.xboot.modules.base.service.IUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

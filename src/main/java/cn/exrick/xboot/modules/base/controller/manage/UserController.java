@@ -11,7 +11,7 @@ import cn.exrick.xboot.modules.base.entity.Department;
 import cn.exrick.xboot.modules.base.entity.Role;
 import cn.exrick.xboot.modules.base.entity.User;
 import cn.exrick.xboot.modules.base.entity.UserRole;
-import cn.exrick.xboot.modules.base.service.mybatis.IUserRoleService;
+import cn.exrick.xboot.modules.base.service.IUserRoleService;
 import cn.exrick.xboot.modules.base.service.*;
 import cn.hutool.core.util.StrUtil;
 import io.swagger.annotations.Api;

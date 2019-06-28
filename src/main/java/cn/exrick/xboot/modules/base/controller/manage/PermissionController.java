@@ -10,7 +10,7 @@ import cn.exrick.xboot.modules.base.entity.RolePermission;
 import cn.exrick.xboot.modules.base.entity.User;
 import cn.exrick.xboot.modules.base.service.PermissionService;
 import cn.exrick.xboot.modules.base.service.RolePermissionService;
-import cn.exrick.xboot.modules.base.service.mybatis.IPermissionService;
+import cn.exrick.xboot.modules.base.service.IPermissionService;
 import cn.exrick.xboot.modules.base.utils.DtoUtil;
 import cn.exrick.xboot.modules.base.vo.MenuVo;
 import cn.hutool.core.util.StrUtil;
