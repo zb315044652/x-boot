@@ -9,7 +9,6 @@ import cn.exrick.xboot.modules.base.vo.MenuVo;
 public class DtoUtil {
 
     public static MenuVo permissionToMenuVo(Permission p){
-
         MenuVo menuVo = new MenuVo();
 
         menuVo.setId(p.getId());

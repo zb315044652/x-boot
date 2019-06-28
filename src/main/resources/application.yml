@@ -43,8 +43,8 @@ spring:
       ddl-auto: none
   # Redis
   redis:
-    host: 127.0.0.1
-    password:
+    host: 192.168.12.201
+    password: 123456
     # 数据库索引 默认0
     database: 0
     port: 6379
@@ -145,4 +145,5 @@ mybatis-plus:
 
 # 日志
 logging:
-  file: xboot-logs/xboot.log
+  level:
+    root: info
