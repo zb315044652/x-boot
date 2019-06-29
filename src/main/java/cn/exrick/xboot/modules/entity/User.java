@@ -72,17 +72,17 @@ public class User extends XbootBaseEntity {
     private String departmentId;
 
     @Transient
-    @TableField(exist=false)
+    @TableField(exist = false)
     @ApiModelProperty(value = "所属部门名称")
     private String departmentTitle;
 
     @Transient
-    @TableField(exist=false)
+    @TableField(exist = false)
     @ApiModelProperty(value = "用户拥有角色")
     private List<Role> roles;
 
     @Transient
-    @TableField(exist=false)
+    @TableField(exist = false)
     @ApiModelProperty(value = "用户拥有的权限")
     private List<Permission> permissions;
 }

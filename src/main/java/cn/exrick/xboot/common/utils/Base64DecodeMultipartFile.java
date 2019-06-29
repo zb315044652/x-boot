@@ -7,6 +7,7 @@ import java.io.*;
 
 /**
  * base64转为multipartFile工具类
+ *
  * @author nikou
  */
 public class Base64DecodeMultipartFile implements MultipartFile {
@@ -16,7 +17,7 @@ public class Base64DecodeMultipartFile implements MultipartFile {
 
     public Base64DecodeMultipartFile(byte[] imgContent, String header) {
         this.imgContent = imgContent;
-        this.header = header.split(";")[0]; 
+        this.header = header.split(";")[0];
     }
 
     @Override
@@ -26,7 +27,7 @@ public class Base64DecodeMultipartFile implements MultipartFile {
 
     @Override
     public String getOriginalFilename() {
-        return System.currentTimeMillis() + (int)Math.random() * 10000 + "." + header.split("/")[1];
+        return System.currentTimeMillis() + (int) Math.random() * 10000 + "." + header.split("/")[1];
     }
 
     @Override
