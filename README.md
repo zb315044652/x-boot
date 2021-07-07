@@ -1,7 +1,7 @@
-# X-Boot
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/Exrick/xmall/blob/master/License)
+# XBoot
+[![AUR](https://img.shields.io/badge/GPL-v3-red)](https://github.com/Exrick/xmall/blob/master/License)
 [![](https://img.shields.io/badge/Author-Exrick-orange.svg)](http://blog.exrick.cn)
-[![](https://img.shields.io/badge/version-1.2-brightgreen.svg)](https://github.com/Exrick/x-boot)
+[![](https://img.shields.io/badge/version-3.3.4-brightgreen.svg)](https://github.com/Exrick/x-boot)
 [![GitHub stars](https://img.shields.io/github/stars/Exrick/x-boot.svg?style=social&label=Stars)](https://github.com/Exrick/x-boot)
 [![GitHub forks](https://img.shields.io/github/forks/Exrick/x-boot.svg?style=social&label=Fork)](https://github.com/Exrick/x-boot)
 
@@ -12,51 +12,72 @@
 - 官网地址：http://xb.exrick.cn
 - 官网源码：https://github.com/Exrick/xboot-show
 ### 在线Demo
-http://xboot.exrick.cn
-### 新在线开发文档
+- 在线Demo：http://xboot.exrick.cn
+- 单点登录测试页：http://sso.exrick.cn
+- 统一认证平台访问地址：http://xboot.exrick.cn/authorize
+### 最新最全面在线文档
 https://www.kancloud.cn/exrick/xboot/content
 ### 前台基于Vue+iView项目地址： [xboot-front](https://github.com/Exrick/xboot-front)
+### 版本说明
+- xboot-fast：单应用版本
+- xboot-module：多模块版本
 ### 项目简介 
-- [x] 代码拥有详细注释 无复杂逻辑 核心使用 SpringBoot 2.1.4.RELEASE
-- [x] JWT / 基于Redis单点登录Token交互 任意切换
+- [x] 代码拥有详细注释 无复杂逻辑 核心使用 SpringBoot 2.4.8
+- [x] JWT / 基于Redis可配置单设备登录Token交互 任意切换 提供开放平台、OAuth2认证中心 支持点单登录
 - [x] JPA + Mybatis-Plus 任意切换
 - [x] 操作日志记录方式任意切换Mysql或Elasticseach记录
-- [x] 极简代码生成 只需输入类名和字段 自动创建数据库表
-- [x] 动态权限管理 菜单按钮权限+数据权限配置
+- [x] Java、Vue、SQL代码生成效率翻四倍
+- [x] 动态权限管理、多维度轻松控制权限按钮显示、数据权限管理
 - [x] 支持社交账号、短信等多方式登录 不干涉原用户数据 实现第三方账号管理
 - [x] 基于Websocket消息推送管理、基于Quartz定时任务管理、数据字典管理
-- [x] Actuator可视化数据监控
-- [x] 后台提供分布式限流、同步锁、验证码等工具类 前端提供空白Vue模版
-- [x] 可动态配置SSO、短信、邮件、Vaptcha验证码等
+- [x] 后台提供分布式限流、同步锁、验证码等工具类 前端提供丰富Vue模版
+- [x] 可动态配置短信、邮件、Vaptcha验证码等
 - [x] 为什么要前后端分离
     - 都什么时代了还在用JQuery？ 
 
+![](https://ooo.0o0.ooo/2019/04/29/5cc70cac4b7a4.png)
+
 ### 截图预览
 
-![QQ截图20180826163917.png](https://i.loli.net/2018/08/26/5b826868e2359.png)
+- PC
 
-![QQ截图20180826164058.png](https://i.loli.net/2018/08/26/5b8268d63d156.png)
+![QQ截图20180826163917.png](https://ooo.0o0.ooo/2021/07/01/t6RXqn8LeaY5Nu1.png)
 
-![QQ截图20180826164129.png](https://i.loli.net/2018/08/26/5b8268dec28ee.png)
+![QQ截图20180826164058.png](https://ooo.0o0.ooo/2021/07/01/TQZqrxog4ufX2SR.png)
 
-![QQ截图20180826164144.png](https://i.loli.net/2018/08/26/5b8268e6a091f.png)
+![QQ截图20180826164144.png](https://ooo.0o0.ooo/2021/07/01/t7RdWhkbzZCawce.png)
+
+- iPad Mini 5
+
+<img src=https://ooo.0o0.ooo/2021/07/01/gXl5OKkJHEIwf3N.png width=600/>
+
+- iPhone X
+
+<img src=https://ooo.0o0.ooo/2021/07/01/LdNPiKMlOESvfW8.png width=300/>
 
 
 ### [完整版截图细节展示](https://github.com/Exrick/x-boot/wiki/%E5%AE%8C%E6%95%B4%E7%89%88%E6%88%AA%E5%9B%BE%E7%BB%86%E8%8A%82%E5%B1%95%E7%A4%BA)
 
+### 系统架构
+
+<img src="https://ooo.0o0.ooo/2019/05/01/5cc87695f109d.png" width="600px"/>
+
 ### 前端所用技术
-- Vue 2.5.x、Vue Cli 3.x、iView、iview-admin、iview-area、Vuex、Vue Router、ES6、webpack、axios、echarts、cookie等
+- Vue 2.6.x、Vue Cli 4.x、iView、iview-admin、iview-area、Vuex、Vue Router、ES6、webpack、axios、echarts、cookie等
 - 前台为基于Vue+iView的独立项目请跳转至 [xboot-front](https://github.com/Exrick/xboot-front) 项目仓库查看
 ### 后端所用技术
+
+<img src=https://ooo.0o0.ooo/2019/11/25/gUiynavBAHd6hY8.jpg width=1000/>
+
 ##### 各框架依赖版本皆使用目前最新版本
-- Spring Boot 2.1.4.RELEASE
+- Spring Boot
 - SpringMVC
 - Spring Security
-- [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/2.0.6.RELEASE/reference/html/)
+- [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/2.2.2.RELEASE/reference/html/)
 - [MyBatis-Plus](http://mp.baomidou.com)：已更新至3.x版本
 - [Redis](https://github.com/Exrick/xmall/blob/master/study/Redis.md)
 - [Elasticsearch](https://github.com/Exrick/xmall/blob/master/study/Elasticsearch.md)：基于Lucene分布式搜索引擎
-- [Druid](http://druid.io/)：阿里高性能数据库连接池 [Druid配置官方中文文档](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
+- [Druid](http://druid.io/)：阿里高性能数据库连接池（偏监控 注重性能可使用默认HikariCP） [Druid配置官方中文文档](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
 - [Json Web Token(JWT)](https://jwt.io/)
 - [Quartz](http://www.quartz-scheduler.org)：定时任务
 - [Beetl](http://ibeetl.com/guide/#beetl)：模版引擎 代码生成使用
@@ -69,7 +90,7 @@ https://www.kancloud.cn/exrick/xboot/content
 - [Maven](https://github.com/Exrick/xmall/blob/master/study/Maven.md)
 - 第三方SDK或服务
     - [七牛云文件存储服务](https://developer.qiniu.com/kodo/sdk/1239/java)
-    - [Mob全国天气预报接口](http://api.mob.com/#/apiwiki/weather)：需注册账号创建应用后申请填入AppKey后免费使用
+    - [腾讯位置服务](https://lbs.qq.com/webservice_v1/guide-ip.html)：需申请填入key后免费使用
     - 完整版
         - [Vaptcha人机验证码](https://www.vaptcha.com/)
         - [阿里云短信服务](https://dysms.console.aliyun.com)
@@ -90,7 +111,7 @@ https://www.kancloud.cn/exrick/xboot/content
 - 建议使用IDEA([破解/免费注册](http://idea.lanyus.com/)) 安装 `Lombok` 插件后导入该Maven项目 若未自动下载依赖请在根目录下执行 `mvn install` 命令
 - MySQL数据库新建 `xboot` 数据库，配置文件已开启ddl自动生成表结构但无初始数据，请记得运行导入xboot.sql文件(当报错找不到Quartz相关表时请设置数据库忽略大小写或额外重新导入quartz.sql)
 - 修改配置文件 `application.yml` 相应配置，其中有详细注释，所有配置只需在这里修改
-- 编译器中启动运行 `XbootApplication.java` 或根目录下执行命令 `mvn spring-boot:run` 默认端口8888 访问接口文档 `http://localhost:8888/swagger-ui.html` 说明启动成功 管理员账密admin|123456
+- 编译器中启动运行 `XbootApplication.java` 或根目录下执行命令 `mvn spring-boot:run` 默认端口8888 访问接口文档 `http://localhost:8888/doc.html` 说明启动成功 管理员账密admin|123456
 - 前台页面请启动基于Vue的 [xboot-front](https://github.com/Exrick/xboot-front) 项目，并修改其接口代理配置
 > 温馨提示：若更新代码后报错，请记得更新sql并清空Redis缓存
 ### 开发指南及相关技术栈文档
@@ -136,11 +157,15 @@ https://www.kancloud.cn/exrick/xboot/content
 - 商用需联系作者授权
 
 ### 作者其他项目推荐
-- [XPay个人免签收款支付系统](https://github.com/Exrick/xpay)
+- [XMall微信小程序APP前端 现已开源！](https://github.com/Exrick/xmall-weapp)
+    
+    [![WX20190924-234416@2x.png](https://s2.ax1x.com/2019/10/06/ucEsBD.md.png)](https://www.bilibili.com/video/av70226175)
 
 - [XMall：基于SOA架构的分布式电商购物商城](https://github.com/Exrick/xmall)
 
-    ![](https://i.loli.net/2018/07/22/5b54615b95788.jpg)
+    ![](https://ooo.0o0.ooo/2018/07/22/5b54615b95788.jpg)
+    
+- [XPay个人免签收款支付系统](https://github.com/Exrick/xpay)
 
 - 机器学习笔记
     - [Machine-Learning](https://github.com/Exrick/Machine-Learning)
